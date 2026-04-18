@@ -19,3 +19,29 @@ Content-Type: application/json
 ###
 
 DELETE http://127.0.0.1:8000/products/2
+
+###
+
+GET http://127.0.0.1:8000/api/posts
+
+###
+
+POST http://127.0.0.1:8000/api/posts
+Content-Type: application/json
+
+{
+    "title": "Post 1",
+    "body": "this is the post body"
+}
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Content-Type: application/json
+
+{
+    "name": "Jan",
+    "email": "jan@email.com",
+    "password": "123",
+    "password_confirmation": "123"
+}
