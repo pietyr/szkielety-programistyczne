@@ -1,0 +1,21 @@
+POST http://127.0.0.1:8000/products
+Content-Type: application/json
+
+{
+    "name": "tv",
+    "price": 4999
+}
+
+###
+
+PUT http://127.0.0.1:8000/products/1
+Content-Type: application/json
+
+{
+    "name": "komputer",
+    "price": 1999
+}
+
+###
+
+DELETE http://127.0.0.1:8000/products/2
