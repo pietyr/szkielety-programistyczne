@@ -11,6 +11,19 @@ app.use(express.urlencoded({ extended: false }))
 // Parser dla żądania JSON
 app.use(express.json());
 
+// Zadanie 1.13 - funkcja pośrednicząca
+let metoda = (req, res, next) => {
+    const method = "Metoda: " + req.method
+    console.log(method)
+    const sciezka = "Ścieżka: " + req.protocol + "://" + req.get('host') + req.originalUrl
+    console.log(sciezka)
+    // Wyświetlanie w przeglądarce
+    // res.send(method + "<br>" + sciezka)
+    next()
+}
+
+app.use(metoda)
+
 // Zadanie 1.10
 
 app.get("/form", (req, res) => {
