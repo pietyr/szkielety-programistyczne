@@ -13,7 +13,8 @@
     "zad": "node zad_01.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
