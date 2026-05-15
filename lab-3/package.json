@@ -7,7 +7,14 @@
     "server"
   ],
   "author": "Piotr Kisiel",
+  "scripts": {
+    "start": "node zad_01.js",
+    "dev": "nodemon zad_01.js"
+  },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
