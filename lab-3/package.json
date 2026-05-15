@@ -1,0 +1,13 @@
+{
+  "name": "express-server",
+  "description": "Prosta aplikacja serwerowa oparta na szkielecie Express",
+  "main": "zad_01.js",
+  "keywords": [
+    "express",
+    "server"
+  ],
+  "author": "Piotr Kisiel",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
