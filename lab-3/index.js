@@ -1,11 +1,18 @@
+
 const express = require('express')
 const path = require('path')
 const { check, validationResult } = require('express-validator')
 const apiRoutes = require('./api/routes')
 const metoda = require('./middleware/metoda')
 const isAuthorized = require('./middleware/autoryzacja')
+const reactEngine = require('express-react-views')
 const app = express()
 const PORT = 3000
+
+// app.set('view engine', 'hbs')
+app.set('view engine', 'jsx')
+app.set('views', path.join(__dirname, 'views'))
+app.engine('jsx', reactEngine.createEngine())
 
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
@@ -96,19 +103,12 @@ app.post("/form", [
         return res.status(422).json({ errors: errors.array() })
     }
 
-    let nazwisko = req.body.nazwisko
+    const nazwisko = req.body.nazwisko
     const email = req.body.email
     const wiek = req.body.wiek
-
     const initials = createInitials(nazwisko)
 
-    res.send(`
-        <h2>Dane użytkownika:</h2>
-        <p>Nazwisko: ${nazwisko}</p>
-        <p>Inicjały: ${initials}</p>
-        <p>Email: ${email}</p>
-        <p>Wiek: ${wiek}</p>
-    `)
+    res.render('about', { nazwisko, email, wiek, initials })
 })
 
 app.use('/api', isAuthorized, apiRoutes)
