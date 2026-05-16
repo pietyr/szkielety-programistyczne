@@ -1,0 +1,22 @@
+{
+  "name": "system-zarzadzania-studentami",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Piotr Kisiel",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+  },
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "handlebars": "^4.7.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
