@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7aabcdd1-4b01-4e4b-98a2-0465934d0f71" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lab-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form_validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/autoryzacja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/metoda.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/info.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zad_01.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="18" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.7943980914146862" />
+      <entry key="MS500" value="4.65895519320485" />
+      <entry key="S2" value="14.10926880155359" />
+      <entry key="S5" value="32.30141054375312" />
+      <entry key="S10" value="55.03947739733948" />
+      <entry key="S30" value="96.93411473310054" />
+      <entry key="S60" value="124.22659955593102" />
+      <entry key="M2" value="150.16596956804844" />
+      <entry key="M5" value="200.9324982628449" />
+      <entry key="M10" value="329.202337014428" />
+      <entry key="M15" value="481.0327570840578" />
+      <entry key="M30" value="870.0316792701469" />
+      <entry key="H1" value="1291.617711197725" />
+      <entry key="H2" value="1614.8347448372842" />
+      <entry key="H4" value="1817.0492519534262" />
+      <entry key="D1" value="2011.081847520746" />
+      <entry key="W1" value="2046.9446316513279" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.7233944796943104" />
+      <entry key="MS500" value="4.622784856192937" />
+      <entry key="S2" value="14.081900728917715" />
+      <entry key="S5" value="32.275899379403704" />
+      <entry key="S10" value="55.017602590393466" />
+      <entry key="S30" value="96.92123744834747" />
+      <entry key="S60" value="124.21835634754864" />
+      <entry key="M2" value="150.16099350345243" />
+      <entry key="M5" value="200.92981900121669" />
+      <entry key="M10" value="329.19998849905994" />
+      <entry key="M15" value="481.03027571319285" />
+      <entry key="M30" value="870.0291568237953" />
+      <entry key="H1" value="1291.6157226178525" />
+      <entry key="H2" value="1614.833466639302" />
+      <entry key="H4" value="1817.0485233456552" />
+      <entry key="D1" value="2011.0817117078052" />
+      <entry key="W1" value="2046.9446118689884" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3DlJ4D3fU6KVGKK3NcPebjSt4v7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "//wsl.localhost/archlinux/home/piotr/repos/priv/szkielety-programistyczne/lab-2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\archlinux\home\piotr\repos\priv\szkielety-programistyczne\lab-3" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7aabcdd1-4b01-4e4b-98a2-0465934d0f71" name="Changes" comment="" />
+      <created>1778850530483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778850530483</updated>
+      <workItem from="1778850534425" duration="2135000" />
+      <workItem from="1778858918463" duration="3746000" />
+      <workItem from="1778921049259" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
