@@ -36,7 +36,7 @@ const Student = mongoose.model("Student", studentSchema);
 
 // Połączenie z bazą danych
 mongoose
-  .connect("mongodb://localhost:27017/StudentDB")
+  .connect("mongodb://127.0.0.1:27017/StudentDB")
   .then((result) => {
     console.log("Połączono z bazą");
   })
@@ -62,7 +62,7 @@ async function update(req, res) {
     await Student.findOneAndUpdate({ _id: req.body._id }, req.body, {
       new: true,
     });
-    res.redirect("list");
+    res.redirect("/list");
   } catch (err) {
     console.log("Błąd podczas aktualizowania danych: " + err);
   }
