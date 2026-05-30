@@ -1,0 +1,35 @@
+.temperature {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.temperature label {
+  font-size: 1.1rem;
+}
+
+.temperature input {
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+/* 
+  Ostylowanie paragrafów w zależności od klasy nadrzędnej (stan skupienia)
+  stan stały: kolor czarny
+  stan ciekły: niebieski (np. blue)
+  stan lotny (gazowy): jasnoszary (np. #aaaaaa / lightgray)
+*/
+
+.stały p {
+  background-color: black;
+  color: white;
+}
+
+.ciekły p {
+  background-color: blue;
+  color: white;
+}
+
+.gazowy p {
+  background-color: lightgray;
+  color: black;
+}
